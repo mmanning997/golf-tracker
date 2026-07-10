@@ -2,6 +2,19 @@
 
 A standalone rebuild of the Cowork golf-tracker artifact, with **real map tiles** (Leaflet + CARTO/OpenStreetMap) — the thing the artifact sandbox couldn't do. Seeded from `Golf Tracker.csv` (45 played + 45 must-play courses).
 
+**Live site:** https://mmanning997.github.io/golf-tracker/
+
+> Note: edits save to each browser's localStorage. The live site and your local dev copy don't share data — use **Data ▾ → Export JSON** / **Import** to move it between them.
+
+## Deploy an update
+
+```bash
+npm run build
+cd dist && git init -b gh-pages && git add -A && git commit -m "deploy" \
+  && git push -f https://github.com/mmanning997/golf-tracker.git gh-pages \
+  && cd .. && rm -rf dist/.git
+```
+
 ## Run it
 
 ```bash
