@@ -822,7 +822,7 @@
     "access": "semi",
     "gd100": true,
     "gm100": true,
-    "replay": true,
+    "replay": false,
     "notes": "Very Hard but a special place",
     "url": "https://www.ballybuniongolfclub.com/",
     "geo_verified": true
@@ -868,7 +868,7 @@
     "access": "private",
     "gd100": false,
     "gm100": false,
-    "replay": true,
+    "replay": false,
     "notes": "Mountain golf",
     "url": "https://www.top100golfcourses.com/golf-course/contentment",
     "geo_verified": true
@@ -937,7 +937,7 @@
     "access": "public",
     "gd100": false,
     "gm100": false,
-    "replay": true,
+    "replay": false,
     "notes": "Awesome Par 3 course",
     "url": "https://www.golfontheocean.com/",
     "geo_verified": true
